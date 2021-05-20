@@ -43,7 +43,7 @@ public class Var implements Expression {
             return expression;
         }
         return this;
-    }
+    }//
 
     // Returns the expression tree resulting from converting all the operations to the logical Nand operation.
     public Expression nandify() {
